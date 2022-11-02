@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      user: root
+      password: example
+      database: items
+      uri: mongodb://root:example@localhost:27017/items?authSource=admin
+
+  application:
+    name: cart-api
+
+
+server:
+  port: 8082
